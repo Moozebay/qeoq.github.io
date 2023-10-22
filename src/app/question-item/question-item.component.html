@@ -1,0 +1,8 @@
+<div class="question-item">
+  <button mat-raised-button color="primary" class="question-item-btn" (click)="click()">{{ name }}</button>
+  <mat-card class="question-card" *ngIf="showQuestion === true">
+      <mat-card-content>
+        {{ question }}
+      </mat-card-content>
+  </mat-card>
+</div>
